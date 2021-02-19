@@ -1,17 +1,15 @@
-.form{margin:0px;display:flex;border:1px solid #DFE1E5;border-radius:50px;max-width:660px;}
-.input{flex:1;display:flex;padding:7px;}
-.input2{background-color:transparent;border:none;margin:0;font-size: 24px;word-wrap:break-word;outline:none;display:flex;flex:1;-webkit-tap-highlight-color:transparent;width:100%;padding:6px;padding-left:14px;overflow-y:hidden;height:54px;}
-.input2:focus {font-size: 24px;}
-.boton{display:flex;border-radius:0 50px 50px 0;padding-left:8px;padding-right:8px;background-color:#44a0e9;border:1px solid #44a0e9;margin:-1px;outline:none;flex:0 0 auto;fill:#fff;cursor:pointer;}
-.svg{background:none;height:54px;width:54px;margin:auto;}
-@media screen and (min-width:300px) and (max-width:796px) {
-.form{border-radius:20px;width:96%;}
-.input2{font-size: 16px;padding:0;height:24px;}
-.input2:focus {font-size: 16px;}
-.boton{border-radius:0 20px 20px 0;}
-.svg{height:24px;width:24px;}
+
+h2{
+			color: #161816;
 }
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-input:focus {font-size: 16px;}
+
+
+
+
+
+
+input{
+				
+				text-decoration:none; font-weight: 600; font-size: 20px; color:#5d5d5d; padding-top:15px; padding-bottom:15px; padding-left:40px; padding-right:40px; background-color:#c1c1c1; border-color: #dcdcdc; border-width: 3px; border-style: solid; border-radius:35px;
+				
 }
-h1{text-align:center}
