@@ -1,0 +1,19 @@
+        h2 {
+            color: #161816;
+        }
+        
+        input {
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 20px;
+            color: #5d5d5d;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 40px;
+            padding-right: 40px;
+            background-color: #e4e0e0;
+            border-color: #726f6f;
+            border-width: 5px;
+            border-style: insert;
+            border-radius: 15px;
+        }
