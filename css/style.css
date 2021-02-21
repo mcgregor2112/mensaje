@@ -1,5 +1,7 @@
         h2 {
-            color: #161816;
+            color: whitesmoke;
+            font: oblique;
+            font-style: italic;
         }
         
         input {
@@ -11,9 +13,22 @@
             padding-bottom: 15px;
             padding-left: 40px;
             padding-right: 40px;
-            background-color: #e4e0e0;
-            border-color: #726f6f;
-            border-width: 5px;
-            border-style: insert;
-            border-radius: 15px;
+            background-color: #ffffffd0;
+            border-color: #3b2a2ad3;
+            border-width: 8px;
+            border-bottom: honeydew;
+            border-radius: 18px;
+        }
+        
+        body {
+            background: grey;
+        }
+        
+        h4 {
+            color: whitesmoke;
+            margin: 10px;
+        }
+        
+        center {
+            margin: 5px;
         }
