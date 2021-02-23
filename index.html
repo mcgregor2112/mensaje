@@ -10,32 +10,42 @@
     <title>chatea...</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" href="img/favicon.png">
-</head>
-
-<body>
-
-    <center>
-        <h2>Envia WhatsApp sin registrar el numero</h2>
-
-        <h4>
-            <p>solo debes agregar el numero de telefono con el codigo internacional sin colocarle el signo "+"</p>
-        </h4>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 
 
-        <form class="form" action="https://api.Whatsapp.com/send" method="get" target="_blank">
-            <div class="input">
-                <span class="icon">
-                    <i class="fa fa-search">
-                    </i>
-                </span>
-                <input class="input2" name="phone" type="number" text="number" keyboard="numeric" aria-label="5834567890" placeholder="ejemplo 5834567890" autofocus>
+    <body>
+        <div class="texto">
+            <h2>Envia WhatsApp sin registrar el numero</h2>
+            <h4>este servicio es completamente gratuito y no gnenra ningun cargo en su factura </h4>
+        </div>
+
+
+
+        <div class="box">
+            <div class="contenedor-1">
+                <form action="https://api.Whatsapp.com/send" method="get" class="search">
+                    <input type="search" name="phone" keyboard="numeric" id="search" placeholder="ejemplo 5834567890">
+                    <input id="submit" value="" type="submit">
+                    <label for="submit" class="submit"></label>
+
+                </form>
             </div>
-        </form>
+        </div>
 
-        <h4>
-            <p>ya no tienes que seguir grabando los contactos al telefono al enviar un captura de algun pago</p>
-        </h4>
-    </center>
-</body>
+
+
+
+    </body>
+
+    <div class="instrucciones">
+        <h4>agregue el numero en forma internacional sin utilizar el signo mas +</h4>
+    </div>
+
+
+
+
 
 </html>
