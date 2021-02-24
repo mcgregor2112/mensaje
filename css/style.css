@@ -3,12 +3,12 @@
 }
 
 div {
-    color: rgb(178, 190, 190);
+    color: rgb(49, 54, 54);
     text-align: center;
 }
 
 body {
-    background: #343d46;
+    background: #d3dae2;
 }
 
 .box {
@@ -73,11 +73,24 @@ body {
     border-radius: 5px;
 }
 
-
+.contenedor-2 {
+    background: rgba(163, 158, 158, 0.308);
+    margin-block-start: 50px;
+    margin: 15px;
 }
+
 .contenedor-1 input#search:hover,
 .contenedor-1 input#search:focus,
 .contenedor-1 input#search:active {
     outline: none;
     background: #ffffff;
+}
+
+.contenedor-1 .icon {
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
 }
