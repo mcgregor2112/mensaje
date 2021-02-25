@@ -1,14 +1,21 @@
-.texto {
-    text-align: center;
-}
-
 div {
     color: rgb(49, 54, 54);
-    text-align: center;
 }
 
 body {
-    background: #00FFFF;
+    background: #fcfcfcc5;
+}
+
+h1 {
+    font: 22px;
+    margin: 10px;
+    text-align: center;
+}
+
+p {
+    font: 14px;
+    margin: 10px;
+    text-align: center;
 }
 
 .box {
@@ -22,19 +29,19 @@ body {
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
+    box-align: center;
 }
 
 .contenedor-1 input#search {
-    align-self: auto;
     height: 50px;
     background: #2b303b;
     border: none;
     font-size: 10pt;
     color: #63717f;
     padding-left: 45px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
     -webkit-transition: background .55s ease;
     -moz-transition: background .55s ease;
     -o-transition: background .55s ease;
@@ -90,4 +97,17 @@ body {
     margin-top: 17px;
     z-index: 1;
     color: #4f5b66;
+}
+
+p1 {
+    text-align: justify;
+    margin: 10px;
+}
+
+ul {
+    align-content: center;
+}
+
+.contenedor-2 {
+    border-radius: 15px;
 }
