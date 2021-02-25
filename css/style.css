@@ -30,6 +30,9 @@ p {
     white-space: nowrap;
     position: relative;
     box-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contenedor-1 input#search {
